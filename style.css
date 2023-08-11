@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: #fff;
+}
+.bg-color{
+    background-color: #000000;
+}
+
+.nav-link{
+    color: #fff!important;
+    font-size: 25px;
+}
+.navbar-brand img{
+    height: 60px;
+}
+.navbar-toggler{
+    color: #fff!important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.0rem;
+    padding-left: 1.0rem;
+}
+
+.bg-img-one{
+    background-image: url('images/RainGraphic_Red_RGB.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.top-margin i{
+    font-size: 35px;
+}
+.headding-one{
+    color: #d32d27;
+    font-weight: bold;
+    
+}
+.color-red{
+    color: #d32d27;
+}
+.padding-8{
+    padding-top: 45px;
+}
+.box-one{
+  
+    background-color: #fff;
+    position: absolute; 
+    border-left: solid #d32d27;
+}
+.border-red{
+    border-left: solid #d32d27;
+}
+
+
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0;margin-left: -15px;font-size: 30px; }
+    .MultiCarousel .rightLst { right:0;margin-right: -15px;font-size: 30px; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; }
+
+        .MultiCarousel .btn:focus {
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgb(240 243 247 / 25%);
+        }
+        
+
+footer i{
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .bg-img-one{
+    height: 250px; 
+}
+.hidden-xs{
+    display: none !important;
+}
+.xs-margin-top{
+    margin-top: -30px;
+}
+.img-response{
+    width: 100%;
+}
+.box-one{
+    
+    margin: 180px 20px 20px 20px;        
+    
+ }
+ .word{
+     margin-top: 310px
+    }
+    .row{
+        margin-right: 0px!important;
+    }
+ 
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .top-margin{
+        left: 30px;
+    }
+    .bg-img-one{
+    height: 350px;
+}
+.box-one{
+    
+    margin: 20px;         
+    
+ }
+ 
+ 
+ 
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .top-margin{
+        left: 60px;
+    }
+    .bg-img-one{
+        height: 450px;
+    }
+    .box-one{
+        height: 330px;
+        width: 340px;
+        margin: 75px;
+        padding: 20px;
+     }
+     
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .top-margin{
+    top: 40vh;
+    left: 110px;
+    
+
+}
+.bg-img-one{
+    height: 650px;   
+  
+}
+.box-one{
+    height: 350px;
+     width: 350px;
+    margin: 130px;         
+     padding: 20px;
+ }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .top-margin{
+        top: 50vh;
+        left: 150px;
+    
+    }
+    .bg-img-one{
+        height: 950px;  
+    }
+    .box-one{
+        height: 350px;
+         width: 350px;
+        margin: 130px;         
+         padding: 20px;
+     }
+    
+}
